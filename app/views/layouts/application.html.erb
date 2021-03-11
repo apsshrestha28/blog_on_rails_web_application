@@ -10,10 +10,8 @@
   </head>
 
   <body>
-    <%= flash[:notice] || flash[:alert] %>
-   
-      <nav id="nav_title" class="navbar navbar bg-light">
-        <h3 style="color:blue">Blog On Rails</h3>
+      <nav id="nav_title" class="navbar navbar"  style="background-color: #e3f2fd;">
+        <h1>Blog On Rails</h1>
             <ul class="nav nav-pills flex-column flex-sm-row" >
               <li id="nav_title" class ="nav-item"> <%= link_to 'Home', root_path %> </li>   
               <li id="nav_title"  class="nav-item"><%= link_to 'New Post', new_post_path%></li>

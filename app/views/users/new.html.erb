@@ -1,26 +1,28 @@
-<h1>Sign Up</h1>
-<%= form_with model:@user, local: true do |f|  %> 
-<div>
-    <%=f.label :first_name  %> 
-    <%= f.text_field :first_name %>
-</div>
-<div>
-    <%= f.label :last_name  %> 
-    <%= f.text_field :last_name  %> 
-</div>
-<div>
-    <%= f.label :email  %> 
-    <%= f.email_field :email  %> 
-</div>
+<div class='padding-10'>
+    <h3>Sign Up</h3>
+    <%= form_with model:@user, local: true do |f|  %> 
+    <div class='form-group'>
+        <%=f.label :first_name  %> 
+        <%= f.text_field :first_name, class:'form-control' %>
+    </div>
+    <div class='form-group'>
+        <%= f.label :last_name  %> 
+        <%= f.text_field :last_name, class:'form-control'  %> 
+    </div>
+    <div class='form-group'>
+        <%= f.label :email  %> 
+        <%= f.email_field :email, class:'form-control'  %> 
+    </div>
 
-<div>
-    <%= f.label :password  %> 
-    <%= f.password_field :password %>
-</div>
-<div>
-    <%= f.label :password_confirmation  %> 
-    <%= f.password_field :password_confirmation%>
-</div>
-<%= f.submit "Sign Up"%>
+    <div class='form-group'>
+        <%= f.label :password  %> 
+        <%= f.password_field :password, class:'form-control' %>
+    </div>
+    <div class='form-group'>
+        <%= f.label :password_confirmation  %> 
+        <%= f.password_field :password_confirmation, class:'form-control'%>
+    </div>
+    <%= f.submit "Sign Up", class: 'btn btn-primary' %>
 
-<% end %> 
+    <% end %> 
+</div>

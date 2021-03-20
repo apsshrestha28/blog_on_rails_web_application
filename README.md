@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description       :  Simple sticky note web app that includes post, response, edit and delete capabilities. 
 
-Things you may want to cover:
+Technologies      :  Web application designed using Ruby on Rails, HTML, CSS, Bootstrap, Postgres
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Url               :  https://www.loom.com/share/0621772e9e9a4be69a2bc9c8fe4b5775

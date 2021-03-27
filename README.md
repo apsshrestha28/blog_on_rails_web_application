@@ -1,4 +1,4 @@
-# README
+Blog On Rails
 
 Description       :  Simple sticky note web app that includes post, response, edit and delete capabilities. 
 
